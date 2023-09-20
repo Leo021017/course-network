@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>数据提交</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			text-align: center;
+		}
+		
+		h1 {
+			color: #333;
+			margin-top: 50px;
+		}
+		
+		form {
+			margin-top: 30px;
+		}
+		
+		input[type="text"] {
+			padding: 10px;
+			font-size: 16px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+			width: 300px;
+			margin-bottom: 20px;
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 5px;
+			cursor: pointer;
+			box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+			transition: background-color 0.3s ease-out;
+		}
+
+    button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 5px;
+}
+
+		
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		
+		.timer {
+			font-size: 24px;
+			margin-top: 20px;
+		}
+		
+		.loading {
+			font-size: 24px;
+			margin-top: 20px;
+			color: #666;
+		}
+	</style>
+</head>
+<body>
+	<h1>数据提交</h1>
+	<form action="#" method="post">
+    {% csrf_token %}
+    <input type="text" id="aa" name="aa"><br><br>
+    <input type="submit" value="提交" onclick="test()">
+  </form>
+  <br>
+  <script>
+    function redirectToURL() {
+    window.open('http://127.0.0.1:8000/search/view');
+}
+  </script>
+  <button value="查看" onclick="redirectToURL()">查看</button>
+	<div class="loading" style="display: none;">正在爬取...</div>
+	<div class="timer"></div>
+</body>
+</html>

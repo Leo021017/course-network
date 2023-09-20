@@ -1,0 +1,6 @@
+itemadapter==0.3.0
+lxml==4.9.2
+PyMySQL==1.0.2
+Requests==2.31.0
+Scrapy==2.8.0
+selenium==3.141.0
