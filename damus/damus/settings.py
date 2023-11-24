@@ -51,7 +51,7 @@ COOKIES_ENABLED = False  # 关闭COOKIES，防止服务器追踪爬虫轨迹
 MYSQL_HOST = 'localhost'
 MYSQL_DBNAME = 'damus'
 MYSQL_USER = 'root'
-MYSQL_PASSWD = 'HYC20021017.2.2'
+MYSQL_PASSWD = 'root'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # 最大并发数

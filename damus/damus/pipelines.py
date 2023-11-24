@@ -23,7 +23,7 @@ class DamusPipeline(object):
         host='localhost',
         db='damus',
         user='root',
-        passwd='HYC20021017.2.2',
+        passwd='root',
         port=3306,
         charset='utf8mb4',
         use_unicode=True)
@@ -35,7 +35,7 @@ class DamusPipeline(object):
         host='localhost',
         db='damus',
         user='root',
-        passwd='HYC20021017.2.2',
+        passwd='root',
         port=3306,
         charset='utf8mb4',
         use_unicode=True)
@@ -132,7 +132,7 @@ class SearchPipeline(object):
         host='localhost',
         db='damus',
         user='root',
-        passwd='HYC20021017.2.2',
+        passwd='root',
         port=3306,
         charset='utf8mb4',
         use_unicode=True)

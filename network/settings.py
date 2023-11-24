@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'damus',  # 数据库名字：刚才在mysql自行创建的那个数据库
         'USER': 'root',  # 用户名
-        'PASSWORD': 'HYC20021017.2.2',  # 密码：自己在安装mysql时设置的进入密码
+        'PASSWORD': 'root',  # 密码：自己在安装mysql时设置的进入密码
         'HOST': '127.0.0.1',  # 哪台机器安装了MySQL，本机为127.0.0.1
         'PORT': '3306',  # 端口号
     }

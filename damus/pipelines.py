@@ -14,7 +14,7 @@ class DamusPipeline:
 
     def __init__(self):
         # 数据库连接，根据个人情况修改host等信息
-        self.conn = pymysql.connect(host='localhost', port=3306, user='root', password='HYC20021017.2.2',
+        self.conn = pymysql.connect(host='localhost', port=3306, user='root', password='root',
                                     database='damus',
                                     charset='utf8mb4')
         self.cursor = self.conn.cursor()
